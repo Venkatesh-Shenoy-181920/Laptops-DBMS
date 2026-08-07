@@ -7,8 +7,8 @@ import mysql.connector as m
 
 # Connecting to the database
 con = m.connect(host = 'localhost',
-                user = 'root',
-                passwd = '192021',
+                user = '<username>',
+                passwd = '<password>',
                 database = 'CS_Project')
 cur = con.cursor()
 
