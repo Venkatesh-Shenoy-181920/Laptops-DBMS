@@ -19,8 +19,8 @@ import confirm_delete
 
 # Creating the connection object and the cursor object
 con = m.connect(host = 'localhost',
-                user = 'root',
-                passwd = '192021',
+                user = '<username>',
+                passwd = '<password>',
                 database = 'CS_Project',
                 connection_timeout = 5)
 cur = con.cursor()
