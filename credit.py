@@ -58,14 +58,14 @@ class credits(QDialog):
         # Getting and displaying the data of team members
         current_dir = os.path.dirname(os.path.abspath(__file__))
         asset = os.path.join(current_dir, "Icon Images")
-        shenoy = os.path.join(asset, "shenoy.jpg")
-        surya = os.path.join(asset, "surya.jpeg")
+        shenoy = os.path.join(asset, "me.jpg")
+        surya = os.path.join(asset, "unnamed_teammate.jpeg")
 
         team_layout = QHBoxLayout()
 
         team_members = [
-            (shenoy , "S.VENKATESH SHENOY", "Lead Developer", "E-Mail: v66201200@gmail.com"),
-            (surya, "SURYANAND A.", "UI Designer & Data Collector", 'E-Mail: asuryanand3@gmail.com')
+            (shenoy , "S.VENKATESH SHENOY", "Lead Developer", "E-Mail: its_a_secret"),
+            (surya, "unnamed_teammate", "UI Designer & Data Collector", 'E-Mail: its_a_secret')
         ]
 
         for photo_path, name, role, email in team_members:
