@@ -8,8 +8,8 @@ from admin import added, failed
 
 # Connecting to the database
 con = m.connect(host = 'localhost',
-                user = 'root',
-                passwd = '192021',
+                user = '<username>',
+                passwd = '<password>',
                 database = 'CS_PROJECT',
                 connection_timeout = 5)
 
