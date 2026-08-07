@@ -6,7 +6,7 @@
 import mysql.connector as m
 from data_tuple import laptops
 
-con = m.connect(host = 'localhost', user = 'root', passwd = '192021')
+con = m.connect(host = 'localhost', user = '<user>', passwd = '<passwd>')
 
 if con.is_connected():
     cur = con.cursor()
