@@ -1,6 +1,6 @@
 # LapDex — Laptop Database Management System
 
-The **LapDex (Laptop Database Management System)** is a user-friendly desktop application developed using **Python, PyQt6, and MySQL**.
+The **LapDex (Laptop Database Management System)** is a user-friendly desktop application developed using **![Python](https://shields.io), PyQt6, and MySQL**.
 
 It is designed for local laptop stores to manage laptop sales (billing and stock tracking are not implemented yet 😅), as well as for laptop enthusiasts who want to keep track of both old and new laptops.
 
